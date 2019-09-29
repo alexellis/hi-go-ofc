@@ -1,0 +1,12 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: http://127.0.0.1:8080
+functions:
+  hi-go:
+    lang: go
+    handler: ./hi-go
+    image: hi-go:latest
+    annotations:
+      com.openfaas.federation.gateway: "http://127.0.0.1:8088"
+
