@@ -7,7 +7,7 @@ functions:
     lang: go
     handler: ./run-on-lambda
     image: run-on-lambda:latest
-     annotations:
+    annotations:
      com.openfaas.federation.gateway: "http://127.0.0.1:8088"
   run-on-k8s:
     lang: go
