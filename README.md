@@ -1,7 +1,8 @@
-Sun 29 Sep 2019 19:22:41 BST
-Sun 29 Sep 2019 19:26:58 BST
-Sun 29 Sep 2019 20:01:32 BST
-Sun 29 Sep 2019 20:30:28 BST
-Sun 29 Sep 2019 20:32:42 BST
-Sun 29 Sep 2019 20:40:52 BST
-Sun 29 Sep 2019 20:46:35 BST
+# OpenFaaS Cloud example
+
+This example deploys to both Kubernetes and AWS Lambda at the same time.
+
+Simply send a PR and when merged, both will be updated.
+
+View the dashboard -> https://system.ofc.plonk.dev/dashboard/alexellis
+
