@@ -6,5 +6,5 @@ import (
 
 // Handle a serverless request
 func Handle(req []byte) string {
-	return fmt.Sprintf("Hello, from Kubernetes: %s", string(req))
+	return fmt.Sprintf("Hello, from K8s: %s", string(req))
 }
