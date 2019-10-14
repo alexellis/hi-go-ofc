@@ -6,5 +6,5 @@ import (
 
 // Handle a serverless request
 func Handle(req []byte) string {
-	return fmt.Sprintf("Hello from AWS Lambda: %s", string(req))
+	return fmt.Sprintf("Hello from Lambda: %s", string(req))
 }
